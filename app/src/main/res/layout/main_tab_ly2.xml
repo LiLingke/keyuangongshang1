@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rg_home_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cb_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="14px"
+            android:drawableTop="@drawable/tab_selector_home"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/tab_home_txt"
+            android:textColor="@color/tab_text_nor" />
+
+        <RadioButton
+            android:id="@+id/cb_msg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="14px"
+            android:drawableTop="@drawable/tab_selector_contacts"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/tab_contans_txt"
+            android:textColor="@color/tab_text_nor" />
+
+        <!--起占位置作用-->
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="14px"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" />
+
+        <RadioButton
+            android:id="@+id/cb_circle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="14px"
+            android:drawableTop="@drawable/tab_selector_message"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/tab_message_txt"
+            android:textColor="@color/tab_text_nor" />
+
+        <RadioButton
+            android:id="@+id/cb_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="14px"
+            android:drawableTop="@drawable/tab_selector_mine"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/tab_mine_txt"
+            android:textColor="@color/tab_text_nor" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

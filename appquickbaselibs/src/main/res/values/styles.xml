@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="defalut_dlg_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <declare-styleable name="TitleBar">
+        <attr name="showLeftImage" format="boolean" />
+        <attr name="showRightImage" format="boolean" />
+        <attr name="showLeftText" format="boolean" />
+        <attr name="showRightText" format="boolean" />
+        <attr name="titleText" format="string" />
+        <attr name="leftDrawable" format="reference" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="buttonSelector" format="reference" />
+    </declare-styleable>
+
+</resources>

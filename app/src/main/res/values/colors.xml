@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fcd342</color>
+    <color name="colorPrimaryDark">#fcd342</color>
+    <color name="colorAccent">#fcd342</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="tab_text_nor">#999999</color>
+    <color name="tab_text_pre">#fcd342</color>
+    <color name="color_line">#e0e0e0</color>
+    <color name="txt_line">#dadada</color>
+    <color name="btn_txt">#333333</color>
+    <color name="btn_line">#33000000</color>
+    <color name="txt_third_party">#cccccc</color>
+
+
+
+
+</resources>

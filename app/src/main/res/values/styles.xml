@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tab_text_pre</item>
+        <item name="colorPrimaryDark">@color/tab_text_pre</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="login_txt">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">90px</item>
+       <item name="android:background">@drawable/txt_shap_grey_line</item>
+       <item name="android:textColorHint">@color/tab_text_nor</item>
+       <item name="android:textColor">@color/tab_text_nor</item>
+       <item name="android:textSize">28px</item>
+       <item name="android:layout_marginRight">60px</item>
+       <item name="android:layout_marginLeft">60px</item>
+       <item name="android:paddingLeft">24px</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90px</item>
+        <item name="android:background">@drawable/btn_shap_yellow_full</item>
+        <item name="android:textColor">@color/btn_txt</item>
+        <item name="android:textSize">32px</item>
+        <item name="android:layout_marginRight">60px</item>
+        <item name="android:layout_marginLeft">60px</item>
+    </style>
+</resources>
